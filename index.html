@@ -281,40 +281,89 @@
     <!-- End Google Tag Manager -->
 
     <style>
-        body {
-          font-family: 'Jost', sans-serif;
-        }
-    
-        .msfsdk-reset {
-          display: inline-block;
-        }
-    
+        /* Botones en header */
         .msfsdk-reset a {
           color: #E4272D !important;
-          text-decoration: none !important;
+          text-transform: uppercase;
           font-size: 11px !important;
+          text-decoration: none !important;
           letter-spacing: .5px;
           background: rgba(195, 195, 195, 0.2);
           padding: 5px 10px;
-          text-transform: uppercase;
           font-family: 'Jost', sans-serif;
         }
-    
-        .msfsdk-reset p a {
-          font-weight: 400;
+        
+        /* Cuadro modal (pop-up) */
+        .msfsdk-modal-content {
+          border-radius: 10px !important;
+          max-width : 600px;
+        }
+        
+        /* Cuadro título modal (pop-up) */
+        body .msfsdk-modal-header {
+              color: #E4272D;
+              border-top-left-radius : 10px !important;
+              border-top-right-radius : 10px !important;
+              background-color: #F1EFDF;
+            max-height: 60px;
+        }
+        
+        /* Texto título modal */
+        body .msfsdk-modal-title {
+          font-size: 17px !important;
+          font-family: 'Jost', sans-serif;
+          font-weight: 700 !important;
+        }
+        
+        /* Cuadro cuerpo modal (pop-up) */
+        .msfsdk-modal-body {
+            padding: 2rem !important;
+            padding-top: 0.5rem !important;
+        }
+        
+        /* Campo modal */
+        div .msfsdk-mb-3 {
+            margin-bottom: 0.5rem !important;    	
         }
     
-        body .msfsdk-modal-content,
-        body .msfsdk-reset .msfsdk-modal-content {
-          border: none !important;
-          border-radius: 0 !important;
-        }
-    
+        /* Etiquetas campos modal (pop-up) */
         .msfsdk-form-label {
           font-size: 14px;
           color: #262626;
           font-weight: 700;
           font-family: 'Jost', sans-serif;
+        }
+        
+        /* Input modal (pop-up) */
+        .msfsdk-modal-content input {
+          border-radius: 10px !important;
+          font-size: 13px !important;
+        }
+        
+        /* Input contraseña modal (pop-up) */
+        #msfsdkRegister_password {
+          border-top-left-radius: 10px !important;
+          border-bottom-left-radius: 10px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+        }
+        
+        .msfsdk-invalid-feedback {
+          font-size: 14px;
+          color: #262626;
+          font-family: 'Jost', sans-serif;    	
+        }
+        
+        .msfsdk-input-group-text {
+          border-top-left-radius: 0px !important;
+          border-bottom-left-radius: 0px !important;
+          border-top-right-radius: 10px !important;
+          border-bottom-right-radius: 10px !important;
+        }
+    
+        /* Botón principal modal (pop-up) */
+        body .msfsdk-reset .msfsdk-btn-primary:focus {
+          box-shadow: 0 0 0 0.15rem rgb(228 39 45 / 50%) !important;
         }
     
         .msfsdk-was-validated .msfsdk-form-control:invalid,
@@ -325,7 +374,6 @@
         .msfsdk-form-control,
         .msfsdk-form-select {
           border: 1px solid #333 !important;
-          border-radius: 0 !important;
           color: #262626 !important;
         }
     
@@ -335,7 +383,6 @@
         }
     
         .msfsdk-input-group-text {
-          border-radius: 0 !important;
           border: 1px solid #333 !important;
           background-color: #f9f9f9 !important;
         }
@@ -344,45 +391,16 @@
           color: #E4272D !important;
         }
     
-        body .msfsdk-modal-header,
-        body .msfsdk-reset .msfsdk-modal-header {
-          border-bottom: none !important;
-          color: #E4272D;
-          background-color: #F1EFDF;
-          font-family: 'Jost', sans-serif;
-        }
-    
-        body .msfsdk-modal-title,
-        body .msfsdk-reset .msfsdk-modal-title {
-          font-size: 20px;
-        }
-    
-        body .msfsdk-modal-header .msfsdk-btn-close,
-        body .msfsdk-reset .msfsdk-modal-header .msfsdk-btn-close {
-          opacity: 1;
-        }
-    
-        body .msfsdk-modal-header .msfsdk-btn-close:focus,
-        body .msfsdk-reset .msfsdk-modal-header .msfsdk-btn-close:focus {
-          box-shadow: none !important;
-        }
-    
         body .msfsdk-btn-primary,
         body .msfsdk-reset .msfsdk-btn-primary {
           color: #fff;
           background-color: #E4272D !important;
           border-color: #E4272D !important;
-          border-radius: 0 !important;
           /* width: 100%; */
           float: right;
           margin-top: 10px;
           font-family: 'Jost', sans-serif;
         }
-    
-        body .msfsdk-reset .msfsdk-btn-primary:focus {
-          box-shadow: 0 0 0 0.25rem rgb(228 39 45 / 50%) !important;
-        }
-    
         .msfsdk-form-label a {
           background-color: transparent !important;
           padding: 0 !important;
