@@ -286,14 +286,22 @@
         <style>
             /* Botones en header */
             .msfsdk-reset a {
-              color: #E4272D !important;
               text-transform: uppercase;
               font-size: 11px !important;
               text-decoration: none !important;
               letter-spacing: .5px;
-              background: rgba(195, 195, 195, 0.2);
               padding: 5px 10px;
               font-family: 'Jost', sans-serif;
+            }
+
+            .header.navbar .msfsdk-reset a {
+              color: #ffffff !important;
+              background: rgba(255, 255, 255, 0.2);
+            }
+
+            .header.navbar.sticky .msfsdk-reset a {
+              color: #E4272D !important;
+              background: rgba(195, 195, 195, 0.2);
             }
             
             .msfsdk-modal-dialog{
