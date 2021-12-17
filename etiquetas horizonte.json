@@ -1,0 +1,133 @@
+{
+  "error": {
+    "required": "Campo obligatorio",
+    "invalid_email": "Email inválido",
+    "login_facebook": "Error al iniciar sesión con Facebook",
+    "validation_error": "Error al validar la sesión de Facebook",
+    "email_requires_validation": "El correo aún no ha sido verificado. Para enviar nuevamente el mensaje de confirmación, haz click <a href=\"#sendEmailValidation\">aquí</a>.",
+    "required_recaptcha": "No se encuentra reCaptcha",
+    "recaptcha_validation_failed": "La validación del reCaptcha ha fallado",
+    "not_editable": "Field is not editable",
+    "invalid_credentials": "Invalid username or password",
+    "user_exists": "El Usuario ingresado ya existe.",
+    "facebook_validation": "Invalid Facebook response",
+    "invalid_facebook_credentials": "Invalid Facebook credentials",
+    "customer_creation_failed": "Error desconocido al intentar crear el usuario",
+    "customer_update_failed": "Error desconocido al intentar actualizar el usuario",
+    "password": {
+      "min_length": "La contraseña es muy corta",
+      "max_length": "La contraseña es muy larga",
+      "required_char": "La contraseña requiere al menos 1 caracter especial",
+      "required_uppercase": "La contraseña requiere al menos 1 mayúscula",
+      "required_lowercase": "La contraseña requiere al menos 1 minúscula",
+      "required_number": "La contraseña requiere al menos 1 número"
+    }
+  },
+  "label": {
+    "metadata": {
+      "acceptTOS": "Acepto los <a href=\"https://www.horizonte.cl/privacy\" target=\"_blank\">Términos y condiciones</a>"
+    }
+  },
+  "placeholder": {},
+  "login": {
+    "title": "¿Ya estás dentro del Círculo Horizonte?",
+    "subtitle": "Inicia sesión para no perderte de nada",
+    "orLoginWith": "O entra desde aquí:",
+    "loginTitle": "",
+    "loginSubtitle": "",
+    "button": {
+      "submit": "Inicia sesión",
+      "loginWith": "Ingresa con {{socialNetwork}}"
+    },
+    "link": {
+      "recoverPassword": "Olvidaste tu contraseña?",
+      "register": "¿Todavía no eres parte? Deja la timidez y <a href=\"#register\">ACTÍVATE AQUÍ</a>."
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "recoverPassword": {
+    "title": "Hola de vuelta, ¿perdiste tu clave?",
+    "subtitle": "Puedes perder tu clave mil veces, lo importante es que no te pierdas ningún beneficio.",
+    "button": {
+      "submit": "Solo tienes que hacer clic aquí"
+    },
+    "message": {
+      "emailSent": "Te hemos enviado un mensaje para que recuperes tu clave"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "register": {
+    "title": "¿AÚN NO ESTÁS DENTRO DEL CÍRCULO HORIZONTE?",
+    "subtitle": "REGISTRATE PARA NO PERDERTE DE NADA.",
+    "orRegisterWith": "O entra desde aquí:",
+    "button": {
+      "submit": "ACTÍVATE",
+      "registerWith": "Registrate con {{socialNetwork}}"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "completeRegister": {
+    "title": "Completar Registro",
+    "subtitle": "",
+    "button": {
+      "submit": "Completar registro como {{first_name}}"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "profile": {
+    "title": "Perfil",
+    "subtitle": "",
+    "button": {
+      "logout": "Salir",
+      "editProfile": "Editar Perfil",
+      "editPassword": "Cambiar Contraseña"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "editProfile": {
+    "title": "Editar Perfil",
+    "subtitle": "",
+    "button": {
+      "submit": "Guardar"
+    },
+    "message": {
+      "saved": "Los datos han sido guardados exitosamente"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "editPassword": {
+    "title": "Cambiar Contraseña",
+    "subtitle": "",
+    "button": {
+      "submit": "Guardar Contraseña"
+    },
+    "message": {
+      "saved": "Contraseña ha sido cambiada con éxito"
+    },
+    "label": {},
+    "placeholder": {},
+    "error:": {}
+  },
+  "message": {
+    "confirmEmailSent": "Te hemos enviado un mensaje para que confirmes tu dirección de correo."
+  },
+  "option": {
+    "gender": {
+      "MALE": "MASCULINO",
+      "FEMALE": "FEMENINO",
+      "OTHER": "OTRO"
+    }
+  }
+}

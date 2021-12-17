@@ -1,0 +1,58 @@
+title.login: Que alegría, inicia tu sesión
+label.username: Correo
+placeholder.username: ejemplo@mail.com
+login.label.recoverPassword: Recuperar contraseña
+label.password: Contraseña
+placeholder.password: ********
+button.login: Iniciar sesión
+button.login_facebook: Inicia sesión con Facebook
+error.required: Campo obligatorio
+error.invalid_credentials: Usuario o Contraseña incorrectos
+
+title.register: Bienvenido a la comunidad PlayFM
+label.email: Correo
+placeholder.email: ejemplo@mail.com
+label.first_name: Nombre
+placeholder.first_name: Nombre
+label.last_name: Apellido
+placeholder.last_name: Apellido
+label.birthday: Fecha de nacimiento
+label.gender: Género
+register.option.gender.MALE: Masculino
+register.option.gender.FEMALE: Femenino
+register.option.gender.OTHER: Otro
+button.register: Regístrate
+button.register_facebook: Regístrate con Facebook
+button.complete_register: Registrarse como {{first_name}}
+message.confirm_email_sent: Hemos enviado un mensaje para que confirmes tu dirección de correo
+
+error.invalid_email: Email invalido
+error.user_exists: El Usuario ingresado ya existe
+error.login_facebook: No se pudo completar el registro con Facebook
+register.error.required: Campo obligatorio
+password.error.min_length: La contraseña es muy corta
+password.error.max_length: La contraseña es muy larga
+password.error.required_char: La contraseña requiere al menos 1 caracter especial
+password.error.required_uppercase: La contraseña requiere al menos 1 mayúscula
+password.error.required_lowercase: La contraseña requiere al menos 1 minúscula
+
+title.recoverPassword: Recupera tu contraseña
+button.recover: Enviar correo de recuperación
+message.recover_mail_sent: Hemos enviado un mensaje para que recuperes tu contraseña
+message.editPassword.saved: Tu contraseña se ha guardado exitosamente
+
+button.editProfile.save: Guardar
+message.saved: Los datos han sido guardados exitosamente
+message.editProfile.saved: Los datos han sido guardados exitosamente
+button.editPassword.save: Guardar
+
+error.user_exists: El correo ingresado ya existe.
+error.invalid_credentials: Usuario o contraseña incorrectos
+error.facebook_validation: Error al validar la sesión de Facebook
+error.invalid_facebook_credentials: Error al validar la sesión de Facebook
+error.validation_error: Error en la validación. Comprueba los campos e intenta nuevamente.
+error.email_requires_validation: El correo aún no ha sido verificado. Para enviar nuevamente el mensaje de confirmación, haz click <a href="#sendEmailValidation">aquí</a>.
+error.required_recaptcha: No se encuentra reCaptcha
+error.recaptcha_validation_failed: La validación del reCaptcha ha fallado
+error.customer_creation_failed: Error desconocido al intentar crear el usuario
+error.customer_update_failed: Error desconocido al intentar actualizar el usuario
